@@ -3,38 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://emilienm.github.io/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/categories/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/categories/containers/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/categories/openstack/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/patching-containers-in-tripleo/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/posts/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/categories/tripleo/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/posts/test/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/tags/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/series/</loc>
+  </url><url>
+    <loc>https://emilienm.github.io/tags/</loc>
   </url>
 </urlset>
