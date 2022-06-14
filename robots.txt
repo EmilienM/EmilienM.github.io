@@ -1,3 +1,1 @@
 User-agent: *
-
-Sitemap: https://emilienm.github.io/sitemap.xml
