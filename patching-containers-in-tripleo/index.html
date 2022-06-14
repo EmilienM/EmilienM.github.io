@@ -1,0 +1,70 @@
+<!doctype html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en-us lang=en-us>
+<head>
+<link href=https://gmpg.org/xfn/11 rel=profile>
+<meta charset=utf-8>
+<meta name=generator content="Hugo 0.88.1">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Patching containers in TripleO &#183; /home/emilien</title>
+<meta name=description content>
+<link type=text/css rel=stylesheet href=https://emilienm.github.io/css/print.css media=print>
+<link type=text/css rel=stylesheet href=https://emilienm.github.io/css/poole.css>
+<link type=text/css rel=stylesheet href=https://emilienm.github.io/css/syntax.css>
+<link type=text/css rel=stylesheet href=https://emilienm.github.io/css/hyde.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+<link rel=apple-touch-icon-precomposed sizes=144x144 href=/apple-touch-icon-144-precomposed.png>
+<link rel="shortcut icon" href=/favicon.png>
+</head>
+<body>
+<aside class=sidebar>
+<div class="container sidebar-sticky">
+<div class=sidebar-about>
+<a href=https://emilienm.github.io/><h1>/home/emilien</h1></a>
+<p class=lead>
+Technical randomness
+</p>
+</div>
+<nav>
+<ul class=sidebar-nav>
+<li><a href=https://emilienm.github.io/>Home</a> </li>
+<li><a href=https://github.com/EmilienM/> Github </a></li>
+</ul>
+</nav>
+<p>&copy; 2022. All rights reserved. </p>
+</div>
+</aside>
+<main class="content container">
+<div class=post>
+<h1>Patching containers in TripleO</h1>
+<time datetime=2022-02-15T19:25:37Z class=post-date>Published: Tue, Feb 15, 2022</time>
+<time datetime=2022-02-15T19:25:37Z class=post-date>Updated: Tue, Jun 14, 2022</time>
+<p>Read this post to learn more how to update a container in TripleO on a live system.</p>
+<p><strong>Note: this might sound <em>surgery</em> but this is I think the clean options to patch container images in TripleO.</strong></p>
+<p>Your TripleO cloud is running and you want to update an rpm in one or multiple containers?</p>
+<p>TripleO provides some CLI to build new container images with the rpms that you want. This procedure is also documented <a href=https://docs.openstack.org/project-deploy-guide/tripleo-docs/latest/deployment/container_image_prepare.html#building-hotfixed-containers>here</a>.</p>
+<p>In this particular example, we will update the <strong>python3-networking-ovn</strong> rpm on <strong>octavia_api</strong>.</p>
+<ol>
+<li>You need a host to build the image. The easiest place is the Undercloud or the Standalone node, where Buildah and tripleoclient are installed. We&rsquo;ll build the image from that host.</li>
+<li>Put your rpms in a directory, e.g. <strong>/tmp/rpms</strong></li>
+<li>Export the OpenStack admin credentials: e.g. <strong>export OS_CLOUD=standalone</strong></li>
+<li>Login to the registry (when using OSP): <strong>podman login registry.redhat.io</strong></li>
+<li>Build the new container image for octavia_api:</li>
+</ol>
+<p> </p>
+<p>You should see the new image by running <strong>buildah images</strong>.</p>
+<p>Now you&rsquo;ll need to push the image to a registry (yours, or TripleO registry): e.g. <strong>buildah push registry.redhat.io/rhosp-rhel8/openstack-octavia-api:16.2-16.2-customfix docker://quay.io/emilien/openstack-octavia-api:16.2-customfix</strong></p>
+<p>Now, there are two methods for deploying that new image.</p>
+<ul>
+<li>Run the deploy command again, after updating the <strong>ContainerOctaviaApiImage</strong> parameter in TripleO environment</li>
+<li>Run the following steps:</li>
+</ul>
+<p>You need to figure out what&rsquo;s the TripleO step where Octavia is deployed (it&rsquo;s step 4), by looking on the host in <strong>/var/lib/tripleo-config/container-startup-config</strong> and grep for <strong>octavia_api</strong>.</p>
+<p>Now, go on the host where you want to use that new image (in the case of Standalone, it&rsquo;s the same host where you built the image) and create an Ansible playbook with this content (e.g. paunch.yaml):</p>
+<p>Change the content for your needs (different step, image, etc).</p>
+<p>Run Ansible with <strong>ansible-playbook paunch.yaml</strong>.</p>
+<p>Your container is now running with your custom image (check with <strong>podman inspect</strong>).</p>
+<p> </p>
+<p>For more details or help, check out the TripleO manuals or ask for help on IRC #tripleo (OFTC now).</p>
+</div>
+</main>
+</body>
+</html>
