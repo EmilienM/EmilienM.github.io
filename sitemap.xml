@@ -2,45 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://emilienm.github.io/blog/patching-containers-in-tripleo/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://emilienm.github.io/</loc>
-    <lastmod>2022-06-14T20:54:00-04:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/page/about-me/</loc>
-    <lastmod>2022-06-14T20:54:00-04:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/page/</loc>
-    <lastmod>2022-06-14T20:54:00-04:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/author/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/blog/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/categories/buildah/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/categories/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/categories/containers/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
-  </url><url>
-    <loc>https://emilienm.github.io/author/emilien/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/categories/openstack/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://emilienm.github.io/blog/patching-containers-in-tripleo/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <loc>https://emilienm.github.io/posts/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://emilienm.github.io/categories/tripleo/</loc>
-    <lastmod>2022-02-15T19:25:37+00:00</lastmod>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://emilienm.github.io/archive/</loc>
+    <loc>https://emilienm.github.io/about-me/</loc>
   </url><url>
-    <loc>https://emilienm.github.io/series/</loc>
+    <loc>https://emilienm.github.io/search/</loc>
   </url><url>
     <loc>https://emilienm.github.io/tags/</loc>
   </url>

@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://emilienm.github.io/sitemap.xml

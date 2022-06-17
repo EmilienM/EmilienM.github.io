@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>/home/emilien</title>
     <link>https://emilienm.github.io/</link>
     <description>Recent content on /home/emilien</description>
+    <image>
+      <url>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Jun 2022 20:54:00 -0400</lastBuildDate><atom:link href="https://emilienm.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>https://emilienm.github.io/page/about-me/</link>
-      <pubDate>Tue, 14 Jun 2022 20:54:00 -0400</pubDate>
-      
-      <guid>https://emilienm.github.io/page/about-me/</guid>
-      <description>Education Orizon Aviation, Quebec (2016) Private Pilot License
-IngeSup, Paris (2012 to 2014) Engineer Degree in Network &amp;amp; System Engineering</description>
-    </item>
-    
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emilienm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Patching containers in TripleO</title>
       <link>https://emilienm.github.io/blog/patching-containers-in-tripleo/</link>
-      <pubDate>Tue, 15 Feb 2022 19:25:37 +0000</pubDate>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://emilienm.github.io/blog/patching-containers-in-tripleo/</guid>
       <description>&lt;p&gt;Read this post to learn more how to update a container in TripleO on a live system.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Archive page</title>
-      <link>https://emilienm.github.io/archive/</link>
+      <title>About me</title>
+      <link>https://emilienm.github.io/about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://emilienm.github.io/archive/</guid>
-      <description></description>
+      <guid>https://emilienm.github.io/about-me/</guid>
+      <description>Hi! I&amp;rsquo;m Emilien Macchi.</description>
     </item>
+    
     
   </channel>
 </rss>
