@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on /home/emilien</title>
-    <link>https://emilienm.github.io/tags/</link>
+    <link>https://my1.fr/tags/</link>
     <description>Recent content in Tags on /home/emilien</description>
     <image>
-      <url>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 May 2017 21:28:49 +0000</lastBuildDate><atom:link href="https://emilienm.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 May 2017 21:28:49 +0000</lastBuildDate><atom:link href="https://my1.fr/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>leadership</title>
-      <link>https://emilienm.github.io/tags/leadership/</link>
+      <link>https://my1.fr/tags/leadership/</link>
       <pubDate>Mon, 29 May 2017 21:28:49 +0000</pubDate>
       
-      <guid>https://emilienm.github.io/tags/leadership/</guid>
+      <guid>https://my1.fr/tags/leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>openstack</title>
-      <link>https://emilienm.github.io/tags/openstack/</link>
+      <link>https://my1.fr/tags/openstack/</link>
       <pubDate>Fri, 14 Apr 2017 00:14:49 +0000</pubDate>
       
-      <guid>https://emilienm.github.io/tags/openstack/</guid>
+      <guid>https://my1.fr/tags/openstack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ptl</title>
-      <link>https://emilienm.github.io/tags/ptl/</link>
+      <link>https://my1.fr/tags/ptl/</link>
       <pubDate>Fri, 14 Apr 2017 00:14:49 +0000</pubDate>
       
-      <guid>https://emilienm.github.io/tags/ptl/</guid>
+      <guid>https://my1.fr/tags/ptl/</guid>
       <description></description>
     </item>
     

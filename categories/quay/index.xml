@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>quay on /home/emilien</title>
-    <link>https://emilienm.github.io/categories/quay/</link>
+    <link>https://my1.fr/categories/quay/</link>
     <description>Recent content in quay on /home/emilien</description>
     <image>
-      <url>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://emilienm.github.io/categories/quay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/quay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moving container images from docker.io to quay.io</title>
-      <link>https://emilienm.github.io/blog/patching-containers-in-tripleo/</link>
+      <link>https://my1.fr/blog/patching-containers-in-tripleo/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://emilienm.github.io/blog/patching-containers-in-tripleo/</guid>
+      <guid>https://my1.fr/blog/patching-containers-in-tripleo/</guid>
       <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
     </item>
     
