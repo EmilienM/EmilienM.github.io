@@ -47,5 +47,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>quay</title>
+      <link>https://emilienm.github.io/categories/quay/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://emilienm.github.io/categories/quay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>skopeo</title>
+      <link>https://emilienm.github.io/categories/skopeo/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://emilienm.github.io/categories/skopeo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
