@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>openstack</title>
+      <title>OpenStack</title>
       <link>https://emilienm.github.io/categories/openstack/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>tripleo</title>
+      <title>TripleO</title>
       <link>https://emilienm.github.io/categories/tripleo/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -62,6 +62,15 @@
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://emilienm.github.io/categories/skopeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leadership</title>
+      <link>https://emilienm.github.io/categories/leadership/</link>
+      <pubDate>Mon, 29 May 2017 21:28:49 +0000</pubDate>
+      
+      <guid>https://emilienm.github.io/categories/leadership/</guid>
       <description></description>
     </item>
     

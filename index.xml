@@ -12,6 +12,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://emilienm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Moving container images from docker.io to quay.io</title>
+      <link>https://emilienm.github.io/blog/patching-containers-in-tripleo/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://emilienm.github.io/blog/patching-containers-in-tripleo/</guid>
+      <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Patching containers in TripleO</title>
       <link>https://emilienm.github.io/blog/patching-containers-in-tripleo/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
@@ -21,12 +30,21 @@
     </item>
     
     <item>
-      <title>Moving container images from docker.io to quay.io</title>
-      <link>https://emilienm.github.io/blog/patching-containers-in-tripleo/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      <title>What Leadership Means To Me</title>
+      <link>https://emilienm.github.io/blog/what-leadership-means-to-me/</link>
+      <pubDate>Mon, 29 May 2017 21:28:49 +0000</pubDate>
       
-      <guid>https://emilienm.github.io/blog/patching-containers-in-tripleo/</guid>
-      <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
+      <guid>https://emilienm.github.io/blog/what-leadership-means-to-me/</guid>
+      <description>&lt;p&gt;I finally took some time to write some thoughts about what Leadership means to me.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Journey As An OpenStack PTL</title>
+      <link>https://emilienm.github.io/blog/my-journey-as-an-openstack-ptl/</link>
+      <pubDate>Fri, 14 Apr 2017 00:14:49 +0000</pubDate>
+      
+      <guid>https://emilienm.github.io/blog/my-journey-as-an-openstack-ptl/</guid>
+      <description>&lt;p&gt;This story explains why I started to stop working as a anarchistic-multi-tasking-schedule-driven and learnt how to become a good team leader.&lt;/p&gt;</description>
     </item>
     
     <item>

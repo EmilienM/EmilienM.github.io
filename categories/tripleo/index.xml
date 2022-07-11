@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tripleo on /home/emilien</title>
+    <title>TripleO on /home/emilien</title>
     <link>https://emilienm.github.io/categories/tripleo/</link>
-    <description>Recent content in tripleo on /home/emilien</description>
+    <description>Recent content in TripleO on /home/emilien</description>
     <image>
       <url>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://emilienm.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -18,6 +18,15 @@
       
       <guid>https://emilienm.github.io/blog/patching-containers-in-tripleo/</guid>
       <description>&lt;p&gt;Read this post to learn more how to update a container in TripleO on a live system.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My Journey As An OpenStack PTL</title>
+      <link>https://emilienm.github.io/blog/my-journey-as-an-openstack-ptl/</link>
+      <pubDate>Fri, 14 Apr 2017 00:14:49 +0000</pubDate>
+      
+      <guid>https://emilienm.github.io/blog/my-journey-as-an-openstack-ptl/</guid>
+      <description>&lt;p&gt;This story explains why I started to stop working as a anarchistic-multi-tasking-schedule-driven and learnt how to become a good team leader.&lt;/p&gt;</description>
     </item>
     
   </channel>
