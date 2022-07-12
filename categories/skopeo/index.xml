@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/skopeo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Moving container images from docker.io to quay.io</title>
-      <link>https://my1.fr/blog/patching-containers-in-tripleo/</link>
+      <link>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://my1.fr/blog/patching-containers-in-tripleo/</guid>
+      <guid>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</guid>
       <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
     </item>
     

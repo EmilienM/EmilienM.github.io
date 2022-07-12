@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://my1.fr/blog/patching-containers-in-tripleo/</loc>
+    <loc>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/</loc>
