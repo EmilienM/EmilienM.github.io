@@ -10,31 +10,67 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>buildah</title>
-      <link>https://my1.fr/categories/buildah/</link>
-      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://my1.fr/categories/buildah/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>containers</title>
       <link>https://my1.fr/categories/containers/</link>
-      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://my1.fr/categories/containers/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>kubernetes</title>
+      <link>https://my1.fr/categories/kubernetes/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nfv</title>
+      <link>https://my1.fr/categories/nfv/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/nfv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openshift</title>
+      <link>https://my1.fr/categories/openshift/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/openshift/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>OpenStack</title>
       <link>https://my1.fr/categories/openstack/</link>
-      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://my1.fr/categories/openstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sriov</title>
+      <link>https://my1.fr/categories/sriov/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/sriov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>buildah</title>
+      <link>https://my1.fr/categories/buildah/</link>
+      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/buildah/</guid>
       <description></description>
     </item>
     

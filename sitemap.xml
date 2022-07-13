@@ -2,32 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</loc>
-    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://my1.fr/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://my1.fr/categories/buildah/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/containers/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/categories/kubernetes/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/categories/nfv/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/categories/openshift/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/openstack/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/posts/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/categories/sriov/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/categories/buildah/</loc>
     <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/blog/patching-containers-in-tripleo/</loc>
     <lastmod>2022-02-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://my1.fr/posts/</loc>
-    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://my1.fr/categories/tripleo/</loc>
     <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/quay/</loc>
     <lastmod>2019-09-30T00:00:00+00:00</lastmod>

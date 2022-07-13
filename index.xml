@@ -10,14 +10,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Moving container images from docker.io to quay.io</title>
-      <link>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</link>
-      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      <title>SR-IOV network operator improvements for OpenStack</title>
+      <link>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</guid>
-      <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
+      <guid>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</guid>
+      <description>&lt;p&gt;Stay tuned on our recent achievements in the Kubernetes and OpenStack space when running Fast-Datapath applications.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,6 +27,15 @@
       
       <guid>https://my1.fr/blog/patching-containers-in-tripleo/</guid>
       <description>&lt;p&gt;Read this post to learn more how to update a container in TripleO on a live system.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moving container images from docker.io to quay.io</title>
+      <link>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</guid>
+      <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
     </item>
     
     <item>
