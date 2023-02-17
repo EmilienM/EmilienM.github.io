@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Deploying OpenShift with an External Load-Balancer for your control plane</title>
+      <link>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</link>
+      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</guid>
+      <description>&lt;p&gt;This is my first post of a series which will cover how can you distribute your OpenShift cluster across multiple datacenter domains and increase
+availability and performance of your control plane.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Patching containers in TripleO</title>
       <link>https://my1.fr/blog/patching-containers-in-tripleo/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
