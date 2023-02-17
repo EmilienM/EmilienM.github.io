@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/openshift/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/openshift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying OpenShift with an External Load-Balancer for your control plane</title>
+      <link>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</link>
+      <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</guid>
+      <description>&lt;p&gt;This is my first post of a series which will cover how can you distribute your OpenShift cluster across multiple datacenter domains and increase
+availability and performance of your control plane.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>SR-IOV network operator improvements for OpenStack</title>
       <link>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</link>
@@ -18,16 +28,6 @@
       
       <guid>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</guid>
       <description>&lt;p&gt;Stay tuned on our recent achievements in the Kubernetes and OpenStack space when running Fast-Datapath applications.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Deploying OpenShift with an External Load-Balancer for your control plane</title>
-      <link>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</link>
-      <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</guid>
-      <description>&lt;p&gt;This is my first post of a series which will cover how can you distribute your OpenShift cluster across multiple datacenter domains and increase
-availability and performance of your control plane.&lt;/p&gt;</description>
     </item>
     
   </channel>
