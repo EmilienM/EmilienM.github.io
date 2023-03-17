@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://my1.fr/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <loc>https://my1.fr/blog/openshift-external-load-balancer-control-plane-with-failure-domains/</loc>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/openshift/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/posts/</loc>
+    <lastmod>2023-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://my1.fr/categories/containers/</loc>
