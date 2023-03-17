@@ -18,7 +18,7 @@
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-with-failure-domains/</guid>
-      <description>&lt;p&gt;This is my second post of a series which will cover how can you distribute your OpenShift cluster across multiple datacenter domains and increase
+      <description>&lt;p&gt;This is my second post of a series which will cover how you can distribute your OpenShift cluster across multiple datacenter domains and increase
 availability and performance of your control plane.&lt;/p&gt;</description>
     </item>
     
@@ -28,7 +28,7 @@ availability and performance of your control plane.&lt;/p&gt;</description>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</guid>
-      <description>&lt;p&gt;This is my first post of a series which will cover how can you distribute your OpenShift cluster across multiple datacenter domains and increase
+      <description>&lt;p&gt;This is my first post of a series which will cover how you can distribute your OpenShift cluster across multiple datacenter domains and increase
 availability and performance of your control plane.&lt;/p&gt;</description>
     </item>
     
