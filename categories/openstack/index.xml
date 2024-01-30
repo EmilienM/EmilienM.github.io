@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenStack on /home/emilien</title>
     <link>https://my1.fr/categories/openstack/</link>
@@ -11,33 +11,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://my1.fr/categories/openstack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SR-IOV network operator improvements for OpenStack</title>
       <link>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</guid>
       <description>&lt;p&gt;Stay tuned on our recent achievements in the Kubernetes and OpenStack space when running Fast-Datapath applications.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Patching containers in TripleO</title>
       <link>https://my1.fr/blog/patching-containers-in-tripleo/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/patching-containers-in-tripleo/</guid>
       <description>&lt;p&gt;Read this post to learn more how to update a container in TripleO on a live system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Journey As An OpenStack PTL</title>
       <link>https://my1.fr/blog/my-journey-as-an-openstack-ptl/</link>
       <pubDate>Fri, 14 Apr 2017 00:14:49 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/my-journey-as-an-openstack-ptl/</guid>
       <description>&lt;p&gt;This story explains why I started to stop working as a anarchistic-multi-tasking-schedule-driven and learnt how to become a good team leader.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>/home/emilien</title>
     <link>https://my1.fr/</link>
@@ -11,90 +11,72 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://my1.fr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing cluster-api-provider-openstack with Tilt</title>
       <link>https://my1.fr/blog/developing-cluster-api-provider-openstack-with-tilt/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/developing-cluster-api-provider-openstack-with-tilt/</guid>
       <description>&lt;p&gt;This is a quick tutorial (mainly brain dump) on how I&amp;rsquo;m using Tilt do quickly iterate over my cluster-api-provider-openstack work.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Deploying OpenShift on OpenStack with an External Load-Balancer for your control plane in multiple Failure Domains</title>
       <link>https://my1.fr/blog/openshift-external-load-balancer-control-plane-with-failure-domains/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-with-failure-domains/</guid>
       <description>&lt;p&gt;This is my second post of a series which will cover how you can distribute your OpenShift cluster across multiple datacenter domains and increase
 availability and performance of your control plane.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Deploying OpenShift with an External Load-Balancer for your control plane</title>
       <link>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/openshift-external-load-balancer-control-plane-intro/</guid>
       <description>&lt;p&gt;This is my first post of a series which will cover how you can distribute your OpenShift cluster across multiple datacenter domains and increase
 availability and performance of your control plane.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SR-IOV network operator improvements for OpenStack</title>
       <link>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</guid>
       <description>&lt;p&gt;Stay tuned on our recent achievements in the Kubernetes and OpenStack space when running Fast-Datapath applications.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Patching containers in TripleO</title>
       <link>https://my1.fr/blog/patching-containers-in-tripleo/</link>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/patching-containers-in-tripleo/</guid>
       <description>&lt;p&gt;Read this post to learn more how to update a container in TripleO on a live system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Moving container images from docker.io to quay.io</title>
       <link>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/moving-container-images-from-docker-io-to-quay-io/</guid>
       <description>&lt;p&gt;Have a look at how we can move container images from the docker.io registry to quay.io.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>What Leadership Means To Me</title>
       <link>https://my1.fr/blog/what-leadership-means-to-me/</link>
       <pubDate>Mon, 29 May 2017 21:28:49 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/what-leadership-means-to-me/</guid>
       <description>&lt;p&gt;I finally took some time to write some thoughts about what Leadership means to me.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Journey As An OpenStack PTL</title>
       <link>https://my1.fr/blog/my-journey-as-an-openstack-ptl/</link>
       <pubDate>Fri, 14 Apr 2017 00:14:49 +0000</pubDate>
-      
       <guid>https://my1.fr/blog/my-journey-as-an-openstack-ptl/</guid>
       <description>&lt;p&gt;This story explains why I started to stop working as a anarchistic-multi-tasking-schedule-driven and learnt how to become a good team leader.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About me</title>
       <link>https://my1.fr/about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://my1.fr/about-me/</guid>
       <description> I don&amp;rsquo;t post much about my personal life, but I&amp;rsquo;m a dual-citizen (french and canadian) living in Quebec-City. Outside work, I love outdoors, spending time in family, flying aircrafts (private pilot) and a bunch of other things. My professional path is frequently updated on my Linkedin profile. I sometimes post on Twitter. If you want to reach out, please send me an email. </description>
     </item>
-    
-    
   </channel>
 </rss>
