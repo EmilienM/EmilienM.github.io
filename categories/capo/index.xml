@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>kubernetes on /home/emilien</title>
-    <link>https://my1.fr/categories/kubernetes/</link>
-    <description>Recent content in kubernetes on /home/emilien</description>
+    <title>capo on /home/emilien</title>
+    <link>https://my1.fr/categories/capo/</link>
+    <description>Recent content in capo on /home/emilien</description>
     <image>
       <title>/home/emilien</title>
       <url>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/capo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing cluster-api-provider-openstack with Tilt</title>
       <link>https://my1.fr/blog/developing-cluster-api-provider-openstack-with-tilt/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://my1.fr/blog/developing-cluster-api-provider-openstack-with-tilt/</guid>
       <description>&lt;p&gt;This is a quick tutorial (mainly brain dump) on how I&amp;rsquo;m using Tilt do quickly iterate over my cluster-api-provider-openstack work.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>SR-IOV network operator improvements for OpenStack</title>
-      <link>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</link>
-      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://my1.fr/blog/sriov-network-operator-improvements-openstack/</guid>
-      <description>&lt;p&gt;Stay tuned on our recent achievements in the Kubernetes and OpenStack space when running Fast-Datapath applications.&lt;/p&gt;</description>
     </item>
     
   </channel>

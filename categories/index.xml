@@ -11,11 +11,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://my1.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>capo</title>
+      <link>https://my1.fr/categories/capo/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/capo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://my1.fr/categories/kubernetes/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://my1.fr/categories/kubernetes/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>openshift</title>
       <link>https://my1.fr/categories/openshift/</link>
-      <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://my1.fr/categories/openshift/</guid>
       <description></description>
@@ -27,15 +45,6 @@
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://my1.fr/categories/containers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubernetes</title>
-      <link>https://my1.fr/categories/kubernetes/</link>
-      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://my1.fr/categories/kubernetes/</guid>
       <description></description>
     </item>
     
