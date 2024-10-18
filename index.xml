@@ -9,10 +9,23 @@
       <url>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.135.0</generator>
+    <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://my1.fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How AI-Assisted is Transforming Software Development</title>
+      <link>https://my1.fr/blog/ai-assisted-coding-tools/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://my1.fr/blog/ai-assisted-coding-tools/</guid>
+      <description>&lt;p&gt;AI-powered coding assistants are revolutionizing the way developers write software.
+By providing contextual code suggestions and reducing repetitive tasks, these tools
+can significantly increase productivity.
+In this post, we&amp;rsquo;ll explore how AI-assisted coding works, its benefits, potential challenges,
+and tips for using it effectively in your development workflow. I&amp;rsquo;ll also share
+example with two solutions and compare them so it&amp;rsquo;ll help you to make decisions on what tools
+to use.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Developing cluster-api-provider-openstack with Tilt</title>
       <link>https://my1.fr/blog/developing-cluster-api-provider-openstack-with-tilt/</link>

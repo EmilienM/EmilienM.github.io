@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Code on /home/emilien</title>
+    <link>https://my1.fr/categories/code/</link>
+    <description>Recent content in Code on /home/emilien</description>
+    <image>
+      <title>/home/emilien</title>
+      <url>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://my1.fr/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.136.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://my1.fr/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How AI-Assisted is Transforming Software Development</title>
+      <link>https://my1.fr/blog/ai-assisted-coding-tools/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://my1.fr/blog/ai-assisted-coding-tools/</guid>
+      <description>&lt;p&gt;AI-powered coding assistants are revolutionizing the way developers write software.
+By providing contextual code suggestions and reducing repetitive tasks, these tools
+can significantly increase productivity.
+In this post, we&amp;rsquo;ll explore how AI-assisted coding works, its benefits, potential challenges,
+and tips for using it effectively in your development workflow. I&amp;rsquo;ll also share
+example with two solutions and compare them so it&amp;rsquo;ll help you to make decisions on what tools
+to use.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
