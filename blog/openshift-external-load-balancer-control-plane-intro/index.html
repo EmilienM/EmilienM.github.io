@@ -24,14 +24,14 @@ If the VIPs are provided in the config, they will be created if a minimum number
 found healthy for a given service, and therefore routed in BGP if FRR is deployed.
 They will be removed if no backend was found healthy for a given service, therefore not routed in BGP if FRR is deployed</li></ul><p>So if you&rsquo;re hosting multiple Load-Balancers, your OpenShift control plane traffic will be:</p><ul><li>routed thanks to BGP if FRR is deployed</li><li>load-balanced and high-availability at the VIP level thanks to BGP if FRR is deployed</li><li>load-balanced between healthy backends thanks to HAproxy</li></ul><p>Let&rsquo;s deploy it!</p><p>In this blog post, we won&rsquo;t cover the Failure Domains yet, and will deploy OpenShift within a single Leaf.
 Therefore, we&rsquo;ll deploy only one load balancer.</p><p>Create your Ansible <code>inventory.yaml</code> file:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nn>---</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>all</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>all</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>hosts</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>lb</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>ansible_host</span><span class=p>:</span><span class=w> </span><span class=m>192.168.11.2</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>ansible_user</span><span class=p>:</span><span class=w> </span><span class=l>cloud-user</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>ansible_become</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>
 </span></span></span></code></pre></div><p><code>192.168.11.2</code> is the IP address of the load balancer.</p><p>Create the Ansible <code>playbook.yaml</code> file:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nn>---</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span>- <span class=nt>hosts</span><span class=p>:</span><span class=w> </span><span class=l>lb</span><span class=w>
+</span></span></span><span class=line><span class=cl>- <span class=nt>hosts</span><span class=p>:</span><span class=w> </span><span class=l>lb</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>vars</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>config</span><span class=p>:</span><span class=w> </span><span class=l>lb</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>tasks</span><span class=p>:</span><span class=w>
@@ -39,7 +39,7 @@ Therefore, we&rsquo;ll deploy only one load balancer.</p><p>Create your Ansible 
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>include_role</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>emilienm.routed_lb</span><span class=w>
 </span></span></span></code></pre></div><p>Write the LB configs in Ansible <code>vars.yaml</code>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nn>---</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>configs</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>configs</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>lb</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>bgp_asn</span><span class=p>:</span><span class=w> </span><span class=m>64998</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>bgp_neighbors</span><span class=p>:</span><span class=w>
@@ -115,29 +115,29 @@ Therefore, we&rsquo;ll deploy only one load balancer.</p><p>Create your Ansible 
 </span></span><span class=line><span class=cl>ansible-galaxy collection install ansible.posix ansible.utils
 </span></span></code></pre></div><p>Deploy the LBs:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ansible-playbook -i inventory.yaml -e <span class=s2>&#34;@vars.yaml&#34;</span> playbook.yaml
 </span></span></code></pre></div><h3 id=deploy-openshift>Deploy OpenShift<a hidden class=anchor aria-hidden=true href=#deploy-openshift>#</a></h3><p>This feature will be available in the 4.13 release as TechPreview.</p><p>Here is how you can simply enable it via the <code>install-config.yaml</code>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>apiVersion</span><span class=p>:</span><span class=w> </span><span class=l>v1</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>baseDomain</span><span class=p>:</span><span class=w> </span><span class=l>mydomain.test </span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>compute</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>worker</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>baseDomain</span><span class=p>:</span><span class=w> </span><span class=l>mydomain.test </span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>compute</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>worker</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>platform</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>openstack</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>m1.xlarge</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>replicas</span><span class=p>:</span><span class=w> </span><span class=m>3</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>controlPlane</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>controlPlane</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>master</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>platform</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>openstack</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>m1.xlarge</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>replicas</span><span class=p>:</span><span class=w> </span><span class=m>3</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>metadata</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>metadata</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>mycluster</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>networking</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>networking</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>clusterNetwork</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span>- <span class=nt>cidr</span><span class=p>:</span><span class=w> </span><span class=m>10.128.0.0</span><span class=l>/14</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>hostPrefix</span><span class=p>:</span><span class=w> </span><span class=m>23</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>machineNetwork</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span>- <span class=nt>cidr</span><span class=p>:</span><span class=w> </span><span class=m>192.168.11.0</span><span class=l>/24</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span>- <span class=nt>cidr</span><span class=p>:</span><span class=w> </span><span class=m>192.168.100.0</span><span class=l>/24</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>platform</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>platform</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>openstack</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>cloud</span><span class=p>:</span><span class=w> </span><span class=l>mycloud</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>machinesSubnet</span><span class=p>:</span><span class=w> </span><span class=l>8586bf1a-cc3c-4d40-bdf6-c243decc603a</span><span class=w>
@@ -147,7 +147,7 @@ Therefore, we&rsquo;ll deploy only one load balancer.</p><p>Create your Ansible 
 </span></span></span><span class=line><span class=cl><span class=w>    </span>- <span class=m>192.168.100.250</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>loadBalancer</span><span class=p>:</span><span class=w>
 </span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>UserManaged</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>featureSet</span><span class=p>:</span><span class=w> </span><span class=l>TechPreviewNoUpgrade</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>featureSet</span><span class=p>:</span><span class=w> </span><span class=l>TechPreviewNoUpgrade</span><span class=w>
 </span></span></span></code></pre></div><p>You can also watch this <a href=https://youtu.be/P05420tNJYI>demo</a> which shows the outcome.</p><h3 id=known-limitations>Known limitations<a hidden class=anchor aria-hidden=true href=#known-limitations>#</a></h3><ul><li>Deploying OpenShift with static IPs for the machines is only supported on Baremetal platform for now but it&rsquo;s in the roadmap to support it on
 VSphere and OpenStack as well.</li><li>Changing the IP address for any OpenShift control plane VIP (API + Ingress) is currently not supported. So once the external LB and the OpenShift
 cluster is deployed, the VIPs can&rsquo;t be changed. This is in our roadmap.</li><li>Migrating an OpenShift cluster from the OpenShift managed LB to an external LB is currently not supported. It&rsquo;s in our roadmap as well.</li></ul><p>Keep in mind that the feature will be TechPreview at first and once it has reached some maturity, we&rsquo;ll promote it to GA.</p><h3 id=wrap-up>Wrap-up<a hidden class=anchor aria-hidden=true href=#wrap-up>#</a></h3><p>Having the VIPs highly available, routed across multiple domains is only a first step into distributing the OpenShift control plane.
